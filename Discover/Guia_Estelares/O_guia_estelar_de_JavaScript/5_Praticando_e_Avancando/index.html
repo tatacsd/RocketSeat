@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let name, age, isHuman
+    name = "Thays"
+    age = 29
+    isHuman = true
+    //  concatanation
+      console.log(name + " is " + age + ".")
+    // interpolation 
+      console.log(`${name} is ${age}.`)
+
+
+    // object
+    const person = {
+      name: "John",
+      age: 33,
+      weight: 88.6,
+      isAdmin: true,
+    }
+
+    console.log(`${person.name} is ${person.age}`);
+
+    // array
+    const animals = [
+      'Lion',
+      'Monkey',
+      {
+        name: 'Cat',
+        age: 6,
+      }
+    ]
+    console.log(animals)
+    console.log(animals[0])
+    console.log(animals.length)
+    console.log(animals[2].age)
+
+  </script>
+</body>
+</html>
